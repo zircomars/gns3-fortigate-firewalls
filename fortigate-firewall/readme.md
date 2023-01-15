@@ -10,6 +10,12 @@ Sovelluksessa tai määritellyssä tapahtuu lähde- ja kohteen ip-osoiteen mää
 
 ![Alt text](images/fortigate-software-1.jpeg)
 
+<br>
+
+## Forticloud product family pdf
+
+https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiCloud.pdf
+
 ## demo
 
 Fortigate palomuuri demoa löytyy sivustolta:
