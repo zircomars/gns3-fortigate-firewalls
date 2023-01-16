@@ -35,84 +35,84 @@ Palomuurien komentorivien cheatsheet ja mitä jokaisen komennossa on tarkoitukse
 Määrityksestä on mm. policy , operaattorit editointi tai poisto tai sen prosessointi
 
 <b> Object operation </b>
-#config firewall address
-(address) # show   <-- check all address configuration
-(address) # end
+#config firewall address <br>
+(address) # show   <-- check all address configuration <br>
+(address) # end <br><br>
 
-#config firewall address
-(address) # edit "test1"
-(address) # show     <- check
-(address) # abort    <- End and discard last config
+#config firewall address <br>
+(address) # edit "test1" <br>
+(address) # show     <- check <br>
+(address) # abort    <- End and discard last config <br><br>
 
-#config firewall address
-(address) # edit "test1"
-(address) # show    <- check
-(address) # set subnet 192.168.0.5 255.255.255.0
-(address) # show   <- check
-(address) # end   <- End and save last config.
+#config firewall address <br>
+(address) # edit "test1" <br>
+(address) # show    <- check <br> 
+(address) # set subnet 192.168.0.5 255.255.255.0 <br>
+(address) # show   <- check <br>
+(address) # end   <- End and save last config. <br><br>
 
-config firewall address
-  edit "test-server-10"
-    set associated-interface "vlan10"
-    set subnet 192.168.0.5 255.255.255.0
-end
+config firewall address <br>
+  edit "test-server-10" <br>
+    set associated-interface "vlan10" <br>
+    set subnet 192.168.0.5 255.255.255.0 <br>
+end<br><br>
 
 <br>
 <b>Policy Operation</b>
-
-#config firewall policy
-(policy)# show    <- show all policy
-(policy)# end
-
-
-#config firewall policy
-(policy)# edit 555
-(policy)# show
-(policy)# abort   <- End and discard last config
-
-config firewall policy
-  edit 555
-    set name "test"
-    set srcintf "vlan10"
-    set dstintf "port 5"
-    set srcadr "xxxx"  "xxxx"  "xxx"
-    set action accept
-    set schedule "always"
-    set servie "HTTP" "ICMP_ANY"
-end    <- End and save last config.
-
 <br>
-<b> delete command </b>
-# config firwall policy
-# delete 1 
-# end
-<b>How to delete router</b>
-# config router static
-# delete 1
-# end
+#config firewall policy <br>
+(policy)# show    <- show all policy  <br>
+(policy)# end <br><br>
+
+
+#config firewall policy <br>
+(policy)# edit 555 <br>
+(policy)# show <br>
+(policy)# abort   <- End and discard last config <br><br>
+
+config firewall policy <br>
+  edit 555 <br>
+    set name "test" <br>
+    set srcintf "vlan10" <br>
+    set dstintf "port 5" <br>
+    set srcadr "xxxx"  "xxxx"  "xxx" <br>
+    set action accept <br>
+    set schedule "always" <br>
+    set servie "HTTP" "ICMP_ANY" <br>
+end    <- End and save last config. <br><br>
+
+<br> 
+<b> delete command </b> <br>
+# config firwall policy <br>
+# delete 1 <br>
+# end <br>
+<b>How to delete router</b> <br>
+# config router static <br>
+# delete 1 <br>
+# end <br><br>
 
 ## Vahvistamiset
+ 
+Fortigate vahvistamisen komennot <br>
 
-Fortigate vahvistamisen komennot
-
-| Help	| # ? |
-| ping	| # execute ping 192.168.0.1 |
-| traceroute | # execute traceroute 192.168.1.1 |
-| telnet | # execute telnet 192.168.0.10 <br> # execute telnet 192.168.0.1 22 |
-| ssh | # execute ssh user@192.168.0.10 <br> # execute ssh user@192.168.0.10 23 |
-| execute command like tcpdump | # diagnose sniffer packet port15 ← Interface Port15 <br> # diagnose sniffer packet any 'host xx.xx.xx.xx' <br> # diagnose sniffer packet port15 'host xx.xx.xx.xx' <br> # diagnose sniffer packet any 'host xx.xx.xx.xx or host yy.yy.yy.yy' <br> # diagnose sniffer packet any 'udp port 53 or tcp port 53' <br> # diagnose sniffer packet any 'host xx.xx.xx.xx and tcp port 80' <br> |
-| shutdown | # execute shutdown |
-| clear arp table | # execute clear system arp table |
-| --------- | ---------- | ------- |
-| <b> Backup Configuration <b> | # exec backup config tftp conf/test-fw-01_20180913.conf 192.168.0.10 |
-| <b> Displaying logs via CLI <b> |  |
-<b> Check log filter </b>
-#execute log filter dump
-category: traffic
-deice: memory
-(snipp)
-Filter:
-(snipp)
+| Help	| # ? | <br>
+| ping	| # execute ping 192.168.0.1 | <br>
+| traceroute | # execute traceroute 192.168.1.1 | <br>
+| telnet | # execute telnet 192.168.0.10 <br> # execute telnet 192.168.0.1 22 | <br>
+| ssh | # execute ssh user@192.168.0.10 <br> # execute ssh user@192.168.0.10 23 | <br>
+| execute command like tcpdump | # diagnose sniffer packet port15 ← Interface Port15 <br> # diagnose sniffer packet any 'host xx.xx.xx.xx' <br> # diagnose sniffer packet port15 'host xx.xx.xx.xx' <br> # diagnose sniffer packet any 'host xx.xx.xx.xx or host yy.yy.yy.yy' <br> # diagnose sniffer packet any 'udp port 53 or tcp port 53' <br> # diagnose sniffer packet any 'host xx.xx.xx.xx and tcp port 80' <br> | <br>
+| shutdown | # execute shutdown | <br>
+| clear arp table | # execute clear system arp table | <br>
+| --------- | ---------- | ------- | <br>
+| <b> Backup Configuration <b> | # exec backup config tftp conf/test-fw-01_20180913.conf 192.168.0.10 | <br>
+| <b> Displaying logs via CLI <b> |  | <br>
+<b> Check log filter </b> <br>
+#execute log filter dump <br>
+category: traffic <br>
+deice: memory <br>
+(snipp) <br>
+Filter: <br>
+(snipp) <br>
 <br>
 
 <b>set filter</b>
