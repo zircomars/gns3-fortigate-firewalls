@@ -106,7 +106,8 @@ Fortigate vahvistamisen komennot <br>
 | clear arp table | # execute clear system arp table | <br>
 | --------- | ---------- | ------- | <br>
 | <b> Backup Configuration <b> | # exec backup config tftp conf/test-fw-01_20180913.conf 192.168.0.10 | <br>
-| <b> Displaying logs via CLI <b> |  | <br>
+| <b> Displaying logs via CLI <b> |  | <br> <br>
+
 <b> Check log filter </b> <br>
 #execute log filter dump <br>
 category: traffic <br>
