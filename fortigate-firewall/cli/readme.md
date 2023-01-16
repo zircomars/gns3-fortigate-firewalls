@@ -105,9 +105,9 @@ Fortigate vahvistamisen komennot <br>
 | shutdown | # execute shutdown | <br>
 | clear arp table | # execute clear system arp table | <br>
 | --------- | ---------- | ------- | <br>
-| <b> Backup Configuration <b> | # exec backup config tftp conf/test-fw-01_20180913.conf 192.168.0.10 | <br>
-| <b> Displaying logs via CLI <b> |  | <br> <br>
+| <b> Backup Configuration <b> | # exec backup config tftp conf/test-fw-01_20180913.conf 192.168.0.10 | <br> <br>
 
+<b> Displaying logs via CLI <b>
 <b> Check log filter </b> <br>
 #execute log filter dump <br>
 category: traffic <br>
@@ -117,35 +117,35 @@ Filter: <br>
 (snipp) <br>
 <br>
 
-<b>set filter</b>
-# execute log filter device    <- Check Option
-Example output (can be different if disk logging is available):
-Available devices:
-0: memory
-1: disk
-2: fortianalyzer
-3: forticloud
+<b>set filter</b> <br>
+# execute log filter device    <- Check Option <br>
+Example output (can be different if disk logging is available): <br>
+Available devices: <br>
+0: memory <br>
+1: disk <br>
+2: fortianalyzer <br>
+3: forticloud <br> <br>
 
-#execute log filter device XX   <- Set Option
+#execute log filter device XX   <- Set Option <br> <br>
 
-#execute log filter category    <- Check Option
- 0: traffic
- 1: event
- 2: utm-virus
- 3: utm-webfilter
- 4: utm-ips
- 5: utm-emailfilter
- 7: utm-anomaly
- 8: utm-voip
- 9: utm-dlp
-10: utm-app-ctrl
-12: utm-waf
-15: utm-dns
-16: utm-ssh
-17: utm-ssl
-18: utm-cifs
-19: utm-file-filter
-#execute log filter category XXXX   <- Set Option
+#execute log filter category    <- Check Option <br><br>
+ 0: traffic <br>
+ 1: event <br>
+ 2: utm-virus <br>
+ 3: utm-webfilter <br>
+ 4: utm-ips <br>
+ 5: utm-emailfilter <br>
+ 7: utm-anomaly <br>
+ 8: utm-voip <br>
+ 9: utm-dlp <br>
+10: utm-app-ctrl <br>
+12: utm-waf <br>
+15: utm-dns <br>
+16: utm-ssh <br>
+17: utm-ssl <br>
+18: utm-cifs <br>
+19: utm-file-filter <br>
+#execute log filter category XXXX   <- Set Option <br>
 <br>
 
 <b>Example</b>
