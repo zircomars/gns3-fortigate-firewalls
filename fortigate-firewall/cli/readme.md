@@ -94,8 +94,9 @@ end    <- End and save last config. <br><br>
 ## Vahvistamiset
  
 Fortigate vahvistamisen komennot <br>
-
-| Help	| # ? | <br>
+| command | do something | 
+| ------ | -------- | 
+| Help | # ? | <br>
 | ping	| # execute ping 192.168.0.1 | <br>
 | traceroute | # execute traceroute 192.168.1.1 | <br>
 | telnet | # execute telnet 192.168.0.10 <br> # execute telnet 192.168.0.1 22 | <br>
