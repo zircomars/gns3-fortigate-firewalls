@@ -22,3 +22,14 @@ Fortigate palomuuri demoa löytyy sivustolta:
 https://www.fortinet.ca/pages/fortigatedemo 
 https://fortigate.fortidemo.com/ (username & password: demo)
 
+## ohjeistuksia ja yms:
+alku osa, miten lataa fortigate tiedoston forticloud:sta
+https://www.youtube.com/watch?v=SKPrKeKKW4w
+https://www.youtube.com/watch?v=bzDTFAy-Tac
+
+https://www.youtube.com/watch?v=tKykFpz5fh4
+
+
+
+
+
