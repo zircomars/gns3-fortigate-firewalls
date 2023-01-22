@@ -4,7 +4,7 @@ Fortigate tai Fortinet on sama yksi nimi, mutta tunnetaan parhaiten palomuurin. 
 
 ![Alt text](images/fortigate-devices-1.jpg)
 
--(sovellus)[#sovellus]
+-[sovellus](#sovellus)
 
 
 # sovellus
