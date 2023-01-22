@@ -1,4 +1,4 @@
 # VMware virtuaalikone
 
 
-[Some title here](fortigate-vmware_eka.pdf)
+[Tarkempi vmware ohjeistus](fortigate-vmware_eka.pdf)
