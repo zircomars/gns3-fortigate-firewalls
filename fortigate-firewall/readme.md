@@ -37,10 +37,8 @@ https://fortigate.fortidemo.com/ (username & password: demo)
 alku osa, miten lataa fortigate tiedoston forticloud:sta <br>
 https://www.youtube.com/watch?v=SKPrKeKKW4w <br>
 https://www.youtube.com/watch?v=bzDTFAy-Tac <br>
-
 https://www.youtube.com/watch?v=tKykFpz5fh4 <br>
+https://www.youtube.com/watch?v=oMLWsJgaIZk <br>
 
 https://www.hackingarticles.in/firewall-lab-setup-fortigate/ <br>
-
-
 
