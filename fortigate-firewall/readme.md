@@ -4,6 +4,9 @@ Fortigate tai Fortinet on sama yksi nimi, mutta tunnetaan parhaiten palomuurin. 
 
 ![Alt text](images/fortigate-devices-1.jpg)
 
+-(sovellus)[#sovellus]
+
+
 # sovellus
 
 Sovelluksessa tai määritellyssä tapahtuu lähde- ja kohteen ip-osoiteen määritykset, että sallittaanko/kielettäänkö tai muu käytäntöjen (policy) määritystä mm. joko http/https, protokollan tai muu määritystä.
