@@ -5,7 +5,7 @@ Fortigate tai Fortinet on sama yksi nimi, mutta tunnetaan parhaiten palomuurin. 
 ![Alt text](images/fortigate-devices-1.jpg)
 
 - [sovellus](#sovellus)
-  * [top cli][#top-cli]
+  * [top cli](#top-cli)
   * [Forticloud product family pdf](#Forticloud-product-family-pdf)
   * [demo](#demo)
   * [ohjeistuksia ja yms](#ohjeistuksia-ja-yms)
