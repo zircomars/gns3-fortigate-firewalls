@@ -1,6 +1,7 @@
 # Fortigate (LAN, WAN, DHCP, Policy)
 CLI konffaukset
 
+* [Single port](#Single-port)
 * [LAN](#LAN)
 * [WAN](#WAN)
 * [DHCP](#DHCP)
@@ -10,6 +11,23 @@ CLI konffaukset
 * [Backup config](#Backup-config)
 * [muu tarkempaa ohjeet](#muu-tarkempaa-ohjeet)
 * [](#)
+
+## Single port
+Yksittäisen porttien konffaus
+
+config system interface <br>
+  edit [porttiNumero] <br>
+  set ip [ip-address] [netmask] <br>
+  set allowaccess (http https ping ssh telnet) <br>
+end <br>
+where:
+
+<b>Esimerkki malli:</b>
+config system interface <br> 
+ edit port1 <br>
+ set ip 192.168.100.159 255.255.255.0 <br>
+ set allowaccess ping https ssh <br>
+end <br>
 
 ## LAN
 
