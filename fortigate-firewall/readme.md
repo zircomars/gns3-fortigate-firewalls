@@ -23,13 +23,13 @@ https://www.fortinet.ca/pages/fortigatedemo
 https://fortigate.fortidemo.com/ (username & password: demo)
 
 ## ohjeistuksia ja yms:
-alku osa, miten lataa fortigate tiedoston forticloud:sta
-https://www.youtube.com/watch?v=SKPrKeKKW4w
-https://www.youtube.com/watch?v=bzDTFAy-Tac
+alku osa, miten lataa fortigate tiedoston forticloud:sta <br>
+https://www.youtube.com/watch?v=SKPrKeKKW4w <br>
+https://www.youtube.com/watch?v=bzDTFAy-Tac <br>
 
-https://www.youtube.com/watch?v=tKykFpz5fh4
+https://www.youtube.com/watch?v=tKykFpz5fh4 <br>
 
-
+https://www.hackingarticles.in/firewall-lab-setup-fortigate/ <br>
 
 
 
