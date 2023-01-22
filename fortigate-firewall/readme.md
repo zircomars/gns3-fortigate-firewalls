@@ -4,8 +4,11 @@ Fortigate tai Fortinet on sama yksi nimi, mutta tunnetaan parhaiten palomuurin. 
 
 ![Alt text](images/fortigate-devices-1.jpg)
 
--[sovellus](#sovellus)
-
+- [sovellus](#sovellus)
+  * [top cli][#top-cli]
+  * [Forticloud product family pdf](#Forticloud-product-family-pdf)
+  * [demo](#demo)
+  * [ohjeistuksia ja yms](#ohjeistuksia-ja-yms)
 
 # sovellus
 
@@ -14,6 +17,11 @@ Sovelluksessa tai määritellyssä tapahtuu lähde- ja kohteen ip-osoiteen mää
 ![Alt text](images/fortigate-software-1.jpeg)
 
 <br>
+
+## top cli
+tärkeimmät kommenot (tarkista konffaukset ja ip-osoiteet), sekä tulostaa tämän hetkisen ajankohtaisen laitteen asetukset, mitä sisään määritetty asetuksia ja konfiguroitu
+
+- $get system interface physic (get sys int physical) tai ($show sys int)
 
 ## Forticloud product family pdf
 
@@ -25,7 +33,7 @@ Fortigate palomuuri demoa löytyy sivustolta:
 https://www.fortinet.ca/pages/fortigatedemo 
 https://fortigate.fortidemo.com/ (username & password: demo)
 
-## ohjeistuksia ja yms:
+## ohjeistuksia ja yms
 alku osa, miten lataa fortigate tiedoston forticloud:sta <br>
 https://www.youtube.com/watch?v=SKPrKeKKW4w <br>
 https://www.youtube.com/watch?v=bzDTFAy-Tac <br>
