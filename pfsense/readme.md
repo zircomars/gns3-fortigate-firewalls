@@ -5,6 +5,7 @@ PFsense on reititin-palomuuri jakauma/yhdistelmä laite, joka toimii FreeBSD poh
 - [pfsense](#pfsense)
 - [pfsense](#vpn)
   * [ipsec](#ipsec)
+    * [pfsense ipsec](#pfsense-ipsec)
     * [Tunnel](#Tunnel)
     * [Phase 1 and 2 settings](#Phase-1-and-2settings)
   * [openvpn](#openvpn)
@@ -15,6 +16,20 @@ PFsense on reititin-palomuuri jakauma/yhdistelmä laite, joka toimii FreeBSD poh
 # VPN
 
 ## ipsec
+
+IP Security Architecture
+
+Tietoliikenneprotokollan Internet-yhteyksien turvaaminen, joka tarjoaa salauksen, osapuolten todennuksen ja tiedon eheyden varmistamisen. Pääasiassa tämä tarkoittaa UDP-pohjaisia sovelluksia, ICMP-kontrolliviestejä sekä reitityksessä ja tunneloinnissa käytettyjä IP-protokollia kuten GRE:tä, OSPF:aa ja niin edelleen. Verrattaessa kuljetuskerroksen protokolliin (4.layer OSI-malli), kuten SSLään, haittapuolena on se, että IPsec-protokollien pitää pystyä hallitsemaan myös vakaus- ja fragmentoitumisongelmat, jotka yleensä on hoidettu korkeammalla tasolla, TCP- eli kuljetuskerroksella.
+
+IPsec-protokollaa voidaan käyttää VPN-ratkaisun eli näennäisen yksityisverkon rakentamiseen kummallakin tavalla. On huomioitava että saavutettava tietoturva eroaa huomattavasti näiden kahden mallin välillä.
+
+![Alt text](images/IPsec-1.png)
+
+### pfsense ipsec
+
+Pfsense ipsec tunneli
+
+![Alt text](images/pfsense-ipsec-1.PNG)
 
 ### Tunnel 
 
