@@ -4,10 +4,11 @@ PFsense on reititin-palomuuri jakauma/yhdistelmä laite, joka toimii FreeBSD poh
 
 - [pfsense](#pfsense)
 - [pfsense](#vpn)
+- [VPN](#VPN)
   * [ipsec](#ipsec)
     * [pfsense ipsec](#pfsense-ipsec)
     * [Tunnel](#Tunnel)
-    * [Phase 1 and 2 settings](#Phase-1-and-2settings)
+    * [Phase 1 and 2 settings](#Phase-1-and-2-settings)
   * [openvpn](#openvpn)
 
 - [LDAP](#LDAP)
@@ -44,6 +45,8 @@ Openvpn velhoisuus on pfsense sovelluksen yksi kätevä tapa määrittää etäk
  - OpenVPN palvelinesiintymä (OpenVPN server instance)
 
 Ohjauksen toiminnon lopuss palomuurissa on täysin toimiva palvelin, joka on valmis vastaanottamaan yhteyksiä käyttäjiltä, että tätä palvelinkokooonpanoa voi sitten muuttaa tarpeiden mukaan.
+
+Kun reitittimessäsi on käynnissä VPN-palvelin, nii voi muodostaa yhteyden kotiverkkoon turvallisesti ja päästä käsiksi paikalliseen koneeseen mistä tahansa, ja jopa käyttää koti internetyhteyttä etähallinta laiteella.
 
 ![Alt text](images/pfsense-openvpn-1.PNG)
 
