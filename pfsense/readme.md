@@ -28,4 +28,4 @@ Ohjauksen toiminnon lopuss palomuurissa on täysin toimiva palvelin, joka on val
 
 Lightweight Directory Access Protocol, on hakemistonpalvelujen tarkoitettu verkkoprotokolla. Se on tarkoitettu tietojen hakemista verko ylitse keskitettyihin palveluihin. Hakemistopalvelu sisältyvät attribuuttipohjaisia/tiedostoattribuutti tietoja, mutta eivät tue monimutkaisiin päivitystoimintoihin kuten transaktio. 
 
-<p color:#538b01>HUOM!</p> tässä on pien ero LDAP ja microsoft active directory:n kanssa.
+${{\color{red}HUOM}}$; tässä on pien ero LDAP ja microsoft active directory:n kanssa, mitä yhteistä pelivaraa niillä on.
