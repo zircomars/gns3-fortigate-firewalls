@@ -42,3 +42,7 @@ https://www.youtube.com/watch?v=oMLWsJgaIZk <br>
 
 https://www.hackingarticles.in/firewall-lab-setup-fortigate/ <br>
 
+zipattu paketti tiedosto löytyy fortigate omasta pilviympäristöstä, että sieltä pitää kirjautua sisään ja todentaa, mutta tässä on v7.2.3 versio paketti (zipattuna). Ongelmana github.ssa voi upottaa max 25Mt tiedostoa, että käytettään google drive..
+
+https://drive.google.com/file/d/1Mt9Fqw15hT2PdR3zL4dHBDqRXcX8WgcQ/view?usp=share_link
+
