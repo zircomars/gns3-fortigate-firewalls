@@ -2,41 +2,49 @@
 
 PFsense on reititin-palomuuri jakauma/yhdistelmä laite, joka toimii FreeBSD pohjaisen Unix operaattorijärjestelmällä. Pfsense:llä on kaksi tyyppistä avointa lähde sovellusta <b>Community Edition (CE)</b> ja <b>Plus</b> tyyppinen, että ladattavissa fyysiselle työasemille tai virtuaalikoneeseen omistettun reititin-palomuuri verkkoa laitetta. Se voidaan määrittää ja päivittää web-pohjaisen käyttöliittymän kautta, eikä sen hallinta vaadi taustalla olevan FreeBSD-järjestelmän tuntemusta.
 
-- [pfsense](#pfsense)
-- [pfsense](#vpn)
-- [VPN](#VPN)
-  * [ipsec](#ipsec)
-    * [pfsense ipsec](#pfsense-ipsec)
-    * [Tunnel](#Tunnel)
-    * [Phase 1 and 2 settings](#Phase-1-and-2-settings)
-  * [openvpn](#openvpn)
+- [VPN tyyppit](#vpn-tyyppit)
+- [IPsec](#IPsec)
+  * [pfsense ipsec](#pfsense-ipsec)
+  * [IKE](#IKE)
+  * [ISAKMP Security Association](#isakmp-security-association)
+  * [Security Policy](#security-policy)
+  * [Phase 1 and 2 settings](#Phase-1-and-2-settings)
+
+- [openvpn](#openvpn)
 
 - [LDAP](#LDAP)
+- [ipsec vs openvpn](#ipsec-vs-openvpn)
 
 
-# VPN
+# VPN tyyppit
 
-## ipsec
+## IPsec
 
 IP Security Architecture
 
 Tietoliikenneprotokollan Internet-yhteyksien turvaaminen, joka tarjoaa salauksen, osapuolten todennuksen ja tiedon eheyden varmistamisen. Pääasiassa tämä tarkoittaa UDP-pohjaisia sovelluksia, ICMP-kontrolliviestejä sekä reitityksessä ja tunneloinnissa käytettyjä IP-protokollia kuten GRE:tä, OSPF:aa ja niin edelleen. Verrattaessa kuljetuskerroksen protokolliin (4.layer OSI-malli), kuten SSLään, haittapuolena on se, että IPsec-protokollien pitää pystyä hallitsemaan myös vakaus- ja fragmentoitumisongelmat, jotka yleensä on hoidettu korkeammalla tasolla, TCP- eli kuljetuskerroksella.
 
-IPsec-protokollaa voidaan käyttää VPN-ratkaisun eli näennäisen yksityisverkon rakentamiseen kummallakin tavalla. On huomioitava että saavutettava tietoturva eroaa huomattavasti näiden kahden mallin välillä.
+IPsec-protokollaa voidaan käyttää VPN-ratkaisun eli näennäisen yksityisverkon rakentamiseen kummallakin tavalla. On huomioitava että saavutettava tietoturva eroaa huomattavasti näiden kahden mallin välillä. IPsec pääprotokollat ovat (AH) authentication header ja (ESP) Encapsulation security payload
 
 ![Alt text](images/IPsec-1.png)
 
-### pfsense ipsec
+## pfsense ipsec
 
 Pfsense ipsec tunneli
 
 ![Alt text](images/pfsense-ipsec-1.PNG)
 
-### Tunnel 
+https://docs.netgate.com/pfsense/en/latest/vpn/ipsec/terms.html
 
-### Phase 1 and 2 settings
+## IKE
 
-## openvpn
+## ISAKMP Security Association
+
+## Security Policy
+
+## Phase 1 and 2 settings
+
+# openvpn
 
 Openvpn velhoisuus on pfsense sovelluksen yksi kätevä tapa määrittää etäkäyttö-VPN mobiili asiakkaalle  <b> (remote access) </b>. Ohjattujen konfigurointi/määrityksest kaikki tarvittavat OpenVPN etäkäyttöpalvelimet tarvitsevat edellytyksen:
  - Todennuksen lähteen(source) (paikallinen(local), RAdius-server tai LDAP serverin)
@@ -55,3 +63,7 @@ Kun reitittimessäsi on käynnissä VPN-palvelin, nii voi muodostaa yhteyden kot
 Lightweight Directory Access Protocol, on hakemistonpalvelujen tarkoitettu verkkoprotokolla. Se on tarkoitettu tietojen hakemista verko ylitse keskitettyihin palveluihin. Hakemistopalvelu sisältyvät attribuuttipohjaisia/tiedostoattribuutti tietoja, mutta eivät tue monimutkaisiin päivitystoimintoihin kuten transaktio. 
 
 ${{\color{red}HUOM}}$; tässä on pien ero LDAP ja microsoft active directory:n kanssa, mitä yhteistä pelivaraa niillä on.
+
+# IPsec vs openvpn
+
+https://blog.miniserver.it/en/pfsense/openvpn-vs-ipsec/
