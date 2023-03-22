@@ -19,6 +19,7 @@ PSense-ohjelmisto on tehokas, joustava palomuuri- ja reititysalusta, että se si
 - [LDAP](#LDAP)
 - [ipsec vs openvpn](#ipsec-vs-openvpn)
 - [tutoriaalit ja muita ohjeiden lukemista](#tutoriaalit-ja-muita-ohjeiden-lukemista)
+  * [pfsense vpn](#pfsense-vpn)
 
 ## Interface in pfsense
 
@@ -61,6 +62,8 @@ https://docs.netgate.com/pfsense/en/latest/vpn/ipsec/terms.html
 
 ## Phase 1 and 2 settings
 
+<hr>
+
 # openvpn
 
 Openvpn velhoisuus on pfsense sovelluksen yksi kätevä tapa määrittää etäkäyttö-VPN mobiili asiakkaalle  <b> (remote access) </b>. Ohjattujen konfigurointi/määrityksest kaikki tarvittavat OpenVPN etäkäyttöpalvelimet tarvitsevat edellytyksen:
@@ -87,4 +90,5 @@ https://blog.miniserver.it/en/pfsense/openvpn-vs-ipsec/
 
 # tutoriaalit ja muita ohjeiden lukemista
 
+## pfsense vpn
 https://docs.netgate.com/pfsense/en/latest/vpn/index.html <br>
