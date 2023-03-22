@@ -18,6 +18,7 @@ PSense-ohjelmisto on tehokas, joustava palomuuri- ja reititysalusta, että se si
 
 - [LDAP](#LDAP)
 - [ipsec vs openvpn](#ipsec-vs-openvpn)
+- [tutoriaalit ja muita ohjeiden lukemista](#tutoriaalit-ja-muita-ohjeiden-lukemista)
 
 ## Interface in pfsense
 
@@ -83,3 +84,7 @@ ${{\color{red}HUOM}}$; tässä on pien ero LDAP ja microsoft active directory:n 
 # IPsec vs openvpn
 
 https://blog.miniserver.it/en/pfsense/openvpn-vs-ipsec/
+
+# tutoriaalit ja muita ohjeiden lukemista
+
+https://docs.netgate.com/pfsense/en/latest/vpn/index.html <br>
