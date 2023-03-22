@@ -2,8 +2,12 @@
 
 PFsense on reititin-palomuuri jakauma/yhdistelmä laite, joka toimii FreeBSD pohjaisen Unix operaattorijärjestelmällä. Pfsense:llä on kaksi tyyppistä avointa lähde sovellusta <b>Community Edition (CE)</b> ja <b>Plus</b> tyyppinen, että ladattavissa fyysiselle työasemille tai virtuaalikoneeseen omistettun reititin-palomuuri verkkoa laitetta. Se voidaan määrittää ja päivittää web-pohjaisen käyttöliittymän kautta, eikä sen hallinta vaadi taustalla olevan FreeBSD-järjestelmän tuntemusta.
 
+PSense-ohjelmisto on tehokas, joustava palomuuri- ja reititysalusta, että se sisältää pitkän luettelon liittyviä ominaisuuksia. Ohjelmistopakettijärjestelmä mahdollistaa laajennetttavia lisäämättä perusjakelun turvotusta ja mahdollistaa tietoturva-aukkoa. 
+
+  * [Interface in pfsense](#interface-in-pfsense)
+
 - [VPN tyyppit](#vpn-tyyppit)
-- [IPsec](#IPsec)
+  * [IPsec](#IPsec)
   * [pfsense ipsec](#pfsense-ipsec)
   * [IKE](#IKE)
   * [ISAKMP Security Association](#isakmp-security-association)
@@ -15,8 +19,20 @@ PFsense on reititin-palomuuri jakauma/yhdistelmä laite, joka toimii FreeBSD poh
 - [LDAP](#LDAP)
 - [ipsec vs openvpn](#ipsec-vs-openvpn)
 
+## Interface in pfsense
+
+- WAN (wide area network) - palomuurin ulkoinenverkko osoite, että jakaa maailmalle ja liitänässä palomuurin yhteyksissä internetiin tai muu upstream verkkoon. 
+- LAN (local area network) - palomuurin yksityis osoite, mitä tyyppilisesti käytettään esim. toimisto konttorien sisäistä yksityis osoiteitta käyttäen laiteistoa tukena.
+- OPT (optional interfaces refer) - suomeksi valinnais liitäntä viittaa muihin liitäntöihin kuin WAN ja LAN. Se on kuin verkkosegmenti WAN ja LAN - yhteyksille. DMZ - segmenttejä yhteyksiä muihin yksityisiin verkkoihin ja jne.
+- DMZ (demilitarized zone) - viittaa suoja-alueen tai kuin sota-alueellisen välisen puskurin. Verkkotoiminnassa se on alue, jossa julkiset palvelimet ovat tavoitettavissa Internetistä WAN-verkon kautta, mutta erillään lähiverkosta. DMZ estää muiden segmenttien järjestelmiä vaarantumasta, jos verkko vaarantuu, samalla kun se suojaa DMZ:n isäntiä muilta paikallisilta segmenteiltä ja Internetiltä yleensä.
 
 # VPN tyyppit
+
+Pfsense ohjelmistossa tarjoaa useita VPN vaihtoehtoisia tyyppejä kuten: <b>IPsec</b>, <b>OpenVPN</b>, <b>wireguard</b> ja <b>L2TP</b>. Tämä osio antaa yleiskatsauksen VPN:n käytöstä, kunkin VPN-tyypi eduista ja haitoista sekä siitä kuinka tulee valita, mikä tulee parhaiten sopia tiettyyn ympäristöön.
+
+L2TP on puhtaasti tunnelointiprotokolla, eikä se tarjoa omaa salausta. Se yhdistetään tyypillisesti toiseen salausmenetelmään, kuten IPsec siirtotilassa. Tästä syystä se ei sovi useimpiin tämän luvun keskusteluihin.
+
+PPTP varoitus! Point-to-Point Tunneling Protocol, on VPN-tunnelointiprotokolla, joka pohjautuu PPP-protokollaan. Se on alun perin tarkoitettu yrityksen ulkopuolella olevien Windows-työasemien kytkeytymisen Windows-palvelimille julkisen verkon ylitse. PPTP-protokolla on PPP-protokollan laajennus joten se voi tunneloida muitakin protokollia kuin TCP/IPtä. Pfsense ohjelmisto ei sisällä PPTP palveilnta, kun PPTP:stä ei saa käyttää missään olosuhteessa, ja koska ei ole enään turvallinen. Myös tämä koskee muita Pfsense ohejlmistoa ja laiteistoja, kun ne eivät ole enää turvallisia.
 
 ## IPsec
 
