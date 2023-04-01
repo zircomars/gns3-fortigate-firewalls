@@ -99,6 +99,8 @@ Oletuksena voisi käyttää GNS3 tarjoavia, että lataa (install) niitä malleja
 
 Pien kertaus Fast Ethernet (FE) on 100 Mbps & Gigabit Ethernet (GE) on 1000 Mbps ja 10 Gigabit Ethernet 10 000 Mbps.
 
+Linkki GNS3 kuinka tarkistaa Cisco emulaatorin, että mitä reititin ja kytkin tukevat tai <ins> ei tue </ins> GNS3 simulaatio ympäristössä. https://docs.gns3.com/docs/emulators/cisco-ios-images-for-dynamips/
+
 <hr>
 
 # gns omia dokumentit ja ohjeita
