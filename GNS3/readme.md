@@ -13,7 +13,7 @@ Jos vmware tyyppistä niin gns3 tukee vmware esxi/workstation and fusion.
 * [lisä laiteitta](#lisä-laiteitta)
 
 - [gns omia dokumentit ja ohjeita](#gns-omia-dokumentit-ja-ohjeita)
-    * [gns muita cheat sheet](#gns-muita-cheat-sheet)
+    * [academy](#academy)
 
 ![Alt text](images/GNS3-network-1.jpg)
 
