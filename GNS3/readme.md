@@ -32,6 +32,7 @@ Viimeisenä tommoinen käärme / verkkoliitin näköinen on, että liitettään 
 
 <br>
 Routers eli reitittimiä, palomuureja tai yhdistelmä reititin-palomuuri <br>
+
 ![Alt text](GUI-images/GUI-2.PNG)
 <br>
 
@@ -51,6 +52,7 @@ Security devices - <br>
 
 <br>
 Pikainen valikko, että löytyy kaikki laitteet, mitä omistaa tai kuin kokonaisuudesssa projektissa tai koko GNS3 sovelluksessa löytyy. Esim. Cisco packet tracer versio X.Y.Z on oletuksena näitä N kpl laiteitta. <br>
+
 ![Alt text](GUI-images/GUI-6.PNG)
 <br>
 
@@ -73,6 +75,7 @@ Muutama esimerkki laiteitta oletuksena, kun lataa ensimmäisen kerran GNS3:sen s
 ![Alt text](images/template-3.PNG) <br>
 
 <br>
+
 ![Alt text](images/template-4.PNG) <br>
 
 Erillinen preferenssi/integraatiota, jos työasemaan on ladattu virtualbox/vmware tai käyttöjärjestelmä docker ja jne.
