@@ -11,7 +11,7 @@ Jos vmware tyyppistä niin gns3 tukee vmware esxi/workstation and fusion.
 * [laitteistot](#laitteistot)
 * [Pikaiset käyttöliittymät](#pikaiset-käyttöliittymät)
 * [lisä laiteitta](#lisä-laiteitta)
-
+    * [Laiteen lisäys malleja](#laiteen-lisäys-malleja)
 - [gns omia dokumentit ja ohjeita](#gns-omia-dokumentit-ja-ohjeita)
     * [academy](#academy)
 
@@ -19,7 +19,7 @@ Jos vmware tyyppistä niin gns3 tukee vmware esxi/workstation and fusion.
 
 ## laitteistot
 
-Simulaatio tukee Cisco laiteistoja mm. <b>c7200 lateitta</b>, <b>juniper</b>, <b> fortigate</b>, <b> pfsense</b> ja yms brändi merkisiä laiteistoja. Periaattees voi upottaa simulaation sisään, mitä voisi kokeilla kuin realistisena konffauksena, että testaa ennen kuin hankii fyysen laiteiston esim. koti tai paikallisen toimistoon, koska säästäisi rahaa tosi paljon ja tietää miltä se kuin toimii realistisena. Toiminnaltaa toimii kuin realistinen, mutta pitää päällä yhtäjaksoisesti niin se on negatiivisin puoli eli sähköt.
+Simulaatio tukee Cisco laiteistoja mm. <b>c7200 lateitta</b>, <b>juniper</b>, <b>huawei</b>, <b> fortigate</b>, <b> pfsense</b> ja yms brändi merkisiä laiteistoja. Periaattees voi upottaa simulaation sisään, mitä voisi kokeilla kuin realistisena konffauksena, että testaa ennen kuin hankii fyysen laiteiston esim. koti tai paikallisen toimistoon, koska säästäisi rahaa tosi paljon ja tietää miltä se kuin toimii realistisena. Toiminnaltaa toimii kuin realistinen, mutta pitää päällä yhtäjaksoisesti niin se on negatiivisin puoli eli sähköt.
 
 ## Pikaiset käyttöliittymät
 
@@ -91,6 +91,13 @@ Erillinen preferenssi/integraatiota, jos työasemaan on ladattu virtualbox/vmwar
  <br>
  ![Alt text](images/template-5.PNG)  <br>
 
+### Laiteen lisäys malleja
+
+Usein mietityttää minkä merkkisen brändin laitteen mallin tai sarjan lataisi simulaatio listalle/laitteeksi, että suorittaa sen harjoituksen. Vaikkapa Cisco joku sarja (C7200) reititintä tai (2960) kytkintä, Huawei reititin ar6121, Juniper kytkin EX3300 ja jne (haettu Googelesta), sekä palomuureja taisi olla yksittäinen merkki kuten Fortigate/fortinet tai pfsense, mutta niissä on vain se versio erona, että tukeeko vanhempi versiosta uuteen.
+
+Oletuksena voisi käyttää GNS3 tarjoavia, että lataa (install) niitä malleja tai vaihtoehtona tuoda ulkopuolisia tietty malli. Sekä vaikuttaa reititimeen, että onks siinä tarjolla sitä 10 Gigabit, 1 Gigabit tai FastbitEthernet porttia, tai jopa Serial porttia. 
+
+Pien kertaus Fast Ethernet (FE) on 100 Mbps & Gigabit Ethernet (GE) on 1000 Mbps ja 10 Gigabit Ethernet 10 000 Mbps.
 
 <hr>
 
@@ -112,3 +119,6 @@ https://www.gns3.com/marketplace/appliances <br>
 ## academy
 
 https://gns3.teachable.com/courses
+
+
+
