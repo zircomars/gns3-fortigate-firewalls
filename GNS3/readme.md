@@ -16,7 +16,38 @@ Jos vmware tyyppistä niin gns3 tukee vmware esxi/workstation and fusion.
 
 ## laitteistot
 
-Simulaatio tukee Cisco laiteistoja mm. <b>c7200 lateitta</b>, <b>juniper</b>, <b> fortigate</b>, <b> pfsense</b> ja yms brändi merkisiä laiteistoja. Periaattees voi upottaa simulaation sisään, mitä voisi kokeilla kuin realistisena konffauksena, että testaa ennen kuin hankii fyysen laiteiston esim. koti tai paikallisen toimistoon, koska säästäisi rahaa tosi paljon ja tietää miltä se kuin toimii realistisena. Toiminnaltaa toimii kuin realistinen, mutta pitää päällä yhtäjaksoisesti niin se on negatiivisin puoli eli sähköt. 
+Simulaatio tukee Cisco laiteistoja mm. <b>c7200 lateitta</b>, <b>juniper</b>, <b> fortigate</b>, <b> pfsense</b> ja yms brändi merkisiä laiteistoja. Periaattees voi upottaa simulaation sisään, mitä voisi kokeilla kuin realistisena konffauksena, että testaa ennen kuin hankii fyysen laiteiston esim. koti tai paikallisen toimistoon, koska säästäisi rahaa tosi paljon ja tietää miltä se kuin toimii realistisena. Toiminnaltaa toimii kuin realistinen, mutta pitää päällä yhtäjaksoisesti niin se on negatiivisin puoli eli sähköt.
+
+## Pikaiset käyttöliittymät
+
+Pikainen lyhyt GUI (graphical user interface) graafinen käyttöliittymät
+
+Perus vasemman käyttöliittymmä, josta löytyy useita laiteita mm. reititin/palomuuri, kytkimet, pilvi, nat:taus, tietokone ja jne. Sekä kuinka yhdistää/liittää tietokonen kytkimelle tai muu laiteelle. Jokaisessa näiden 5-nappista (ylhältä laskien) niin löytyy <b>New Template</b>, eli malleja josta tuoo esim. tietoverkkojen brändi tuoteita GNS3 simulaatioon sovellukseen suorittamaan harjoituksen kuin realistisessa elämässä, mutta ongelmana ehkä voi olla jotakin puuttuvia osia että ei mee ihan 100% sama kuin tosi elämässä..
+
+![Alt text](GUI-images/GUI-1.PNG)
+
+Routers eli reitittimiä, palomuureja tai yhdistelmä reititin-palomuuri
+![Alt text](GUI-images/GUI-2.PNG)
+
+
+Kytkimet
+
+![Alt text](GUI-images/GUI-3.PNG)
+
+
+Erilliset pilvet , nat?
+
+![Alt text](GUI-images/GUI-4.PNG)
+
+
+Security devices - 
+
+![Alt text](GUI-images/GUI-5.PNG)
+
+Pikainen valikko, että löytyy kaikki laitteet, mitä omistaa tai kuin kokonaisuudesssa projektissa tai koko GNS3 sovelluksessa löytyy. Esim. Cisco packet tracer versio X.Y.Z on oletuksena näitä N kpl laiteitta.
+
+![Alt text](GUI-images/GUI-6.PNG)
+
 
 # gns omia dokumentit ja ohjeita
 
@@ -25,3 +56,8 @@ https://gns3.com/marketplace/appliances <br>
 
 https://docs.gns3.com/docs/emulators/which-emulators-should-i-use <br>
 
+GNS3 windows lataus ohje<br>
+https://docs.gns3.com/docs/getting-started/installation/windows 
+<br>
+GNS3 Marketplace -> Appliances (template)
+https://www.gns3.com/marketplace/appliances
