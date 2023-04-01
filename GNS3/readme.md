@@ -79,7 +79,7 @@ Perus oletuksena GNS3 virtuaali tietoliikenne verkko ympäristössä on palomuur
 <br>
 ![Alt text](images/template-2.PNG) <br>
 
-Muutama esimerkki laiteitta oletuksena, kun lataa ensimmäisen kerran GNS3:sen sovelluksen pyörimään. 
+Muutama esimerkki laiteitta oletuksena, kun lataa ensimmäisen kerran GNS3:sen sovelluksen pyörimään. Valitse sopiva laite niin sitten vaan "install" ja se lisää laiteen kuin GNS3 käyttöjärjestelmän pohjaan.
 <br>
 ![Alt text](images/template-3.PNG) <br>
 
