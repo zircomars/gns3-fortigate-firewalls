@@ -24,30 +24,31 @@ Pikainen lyhyt GUI (graphical user interface) graafinen käyttöliittymät
 
 Perus vasemman käyttöliittymmä, josta löytyy useita laiteita mm. reititin/palomuuri, kytkimet, pilvi, nat:taus, tietokone ja jne. Sekä kuinka yhdistää/liittää tietokonen kytkimelle tai muu laiteelle. Jokaisessa näiden 5-nappista (ylhältä laskien) niin löytyy <b>New Template</b>, eli malleja josta tuoo esim. tietoverkkojen brändi tuoteita GNS3 simulaatioon sovellukseen suorittamaan harjoituksen kuin realistisessa elämässä, mutta ongelmana ehkä voi olla jotakin puuttuvia osia että ei mee ihan 100% sama kuin tosi elämässä..
 
+Viimeisenä tommoinen käärme / verkkoliitin näköinen on, että liitettään laite x --> johonkin laite y:hyn. <br>
 ![Alt text](GUI-images/GUI-1.PNG)
 
-Routers eli reitittimiä, palomuureja tai yhdistelmä reititin-palomuuri
+<br>
+Routers eli reitittimiä, palomuureja tai yhdistelmä reititin-palomuuri <br>
 ![Alt text](GUI-images/GUI-2.PNG)
+<br>
 
-
-Kytkimet
-
+Kytkimet <br>
 ![Alt text](GUI-images/GUI-3.PNG)
+<br>
 
+<br>
+Erilliset pilvet , nat? <br>
+![Alt text](GUI-images/GUI-4.PNG) <br>
+<br>
 
-Erilliset pilvet , nat?
-
-![Alt text](GUI-images/GUI-4.PNG)
-
-
-Security devices - 
-
+Security devices - <br>
 ![Alt text](GUI-images/GUI-5.PNG)
+<br>
 
-Pikainen valikko, että löytyy kaikki laitteet, mitä omistaa tai kuin kokonaisuudesssa projektissa tai koko GNS3 sovelluksessa löytyy. Esim. Cisco packet tracer versio X.Y.Z on oletuksena näitä N kpl laiteitta.
-
+<br>
+Pikainen valikko, että löytyy kaikki laitteet, mitä omistaa tai kuin kokonaisuudesssa projektissa tai koko GNS3 sovelluksessa löytyy. Esim. Cisco packet tracer versio X.Y.Z on oletuksena näitä N kpl laiteitta. <br>
 ![Alt text](GUI-images/GUI-6.PNG)
-
+<br>
 
 # gns omia dokumentit ja ohjeita
 
