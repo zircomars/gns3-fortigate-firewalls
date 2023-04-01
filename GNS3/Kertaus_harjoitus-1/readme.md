@@ -38,30 +38,29 @@ Ensimmäisenä perus annettaan PC1 ja PC2:lle koneet vaikappa just tämä tuttu 
 
 Vaihtoehtoisia kuinka annettaan koneelle IP-osoite, sekä sinä se skannaa/tarkistaa:
 
-- PC3> ip 192.168.10.13/24 192.168.10.1
-Checking for duplicate address...
-PC1 : 192.168.10.13 255.255.255.0 gateway 192.168.10.1
+- PC3> ip 192.168.10.13/24 192.168.10.1 <br>
+Checking for duplicate address... <br>
+PC1 : 192.168.10.13 255.255.255.0 gateway 192.168.10.1 <br><br>
 
-- PC2> ip 192.168.10.12 255.255.255.0 192.168.10.1
+- PC2> ip 192.168.10.12 255.255.255.0 192.168.10.1 <br>
+<br><br>
+Sekä kuinka tarkistellaan yksittäisen oma IP-osoite vaikappa PC3: <br>
+PC3> show ip <br>
 
-Sekä kuinka tarkistellaan yksittäisen oma IP-osoite vaikappa PC3:
-
-PC3> show ip
-
-NAME        : PC3[1]
-IP/MASK     : 192.168.10.13/24
-GATEWAY     : 192.168.10.1
-DNS         :
-MAC         : 00:50:79:66:68:02
-LPORT       : 10010
-RHOST:PORT  : 127.0.0.1:10011
-MTU:        : 1500
-
+NAME        : PC3[1] <br>
+IP/MASK     : 192.168.10.13/24 <br>
+GATEWAY     : 192.168.10.1 <br>
+DNS         : <br>
+MAC         : 00:50:79:66:68:02 <br>
+LPORT       : 10010 <br>
+RHOST:PORT  : 127.0.0.1:10011 <br>
+MTU:        : 1500 <br>
+<br>
 PC3 arp taulukkosta näkee mihin viimeksi se on pinggannut vaikappa esim. PC1:lle:
 
-PC3> show arp
+PC3> show arp <br>
 
-00:50:79:66:68:00  192.168.10.10 expires in 83 seconds
+00:50:79:66:68:00  192.168.10.10 expires in 83 seconds <br>
 
 ![Alt text](images/GNS-harjoitus2-1.PNG)
 
