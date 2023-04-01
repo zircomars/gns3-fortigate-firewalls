@@ -41,7 +41,8 @@ Kytkimet <br>
 <br>
 
 <br>
-Erilliset pilvet , nat?
+Erilliset pilvet , nat? 
+VPCS - tarkoittaa tietokonetta ei väliä onko läppäri tai fyysinen tietokone (sellainen iso)
 
 ![Alt text](GUI-images/GUI-4.PNG) <br>
 <br>
@@ -55,6 +56,14 @@ Pikainen valikko, että löytyy kaikki laitteet, mitä omistaa tai kuin kokonais
 
 ![Alt text](GUI-images/GUI-6.PNG)
 <br>
+
+- Viimeisenä jos on jotakin muistiinpanoja tai merkintöjä toi ensimmäinen kynä merkkinen näköinen on se.
+- Toisena merkkinä on (insert pics) - jotakin raahaataan työasemalta jokin kuva
+- Kolmas-viides on piirtämistä, että rajoitettaan esim. tässä alueella X-jotakin tai ympyrä Y-jotakin ja perus viiva (raja)
+- Lukkon näköinen, ikään kuin lukittaisi X laitetta vaikkapa reititin tai kone ettei siihen tehdä muutosta.
+- Ihan oikealla perus zoom in & out, ja kamera logoinen (screenshot)
+
+![Alt text](GUI-images/GUI-7.PNG) <br>
 
 ## lisä laiteitta
 
