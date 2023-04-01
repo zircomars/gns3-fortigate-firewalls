@@ -9,6 +9,9 @@ Jos lataa pohjallisen simulaation fyysiselle työasemalleki <b>GNS3 GUI</b> se o
 Jos vmware tyyppistä niin gns3 tukee vmware esxi/workstation and fusion.
 
 * [laitteistot](#laitteistot)
+* [Pikaiset käyttöliittymät](#pikaiset-käyttöliittymät)
+* [lisä laiteitta](#lisä-laiteitta)
+
 - [gns omia dokumentit ja ohjeita](#gns-omia-dokumentit-ja-ohjeita)
     * [gns muita cheat sheet](#gns-muita-cheat-sheet)
 
@@ -53,20 +56,19 @@ Pikainen valikko, että löytyy kaikki laitteet, mitä omistaa tai kuin kokonais
 
 ## lisä laiteitta
 
-<b>new Template</b>
-Periaatteessa tuodaan/haetaan/ladataan/ tai importoidaan uutta laiteistoa GNS3 virtuaali tietoliikenne ympäristöön, että siitä suoritettaan selainen harjoitus ennen fyysistä ja realista tekemistä. 
+<b>new Template</b> - Periaatteessa tuodaan/haetaan/ladataan/ tai importoidaan uutta laiteistoa GNS3 virtuaali tietoliikenne ympäristöön, että siitä suoritettaan selainen harjoitus ennen fyysistä ja realista tekemistä. 
 
-Jos on puuttuvia laitetitta/malleja niin voi ladata sovelluksen kautta, mutta mikäli jos on olemassa oleva tiedosto niin perus "import" X-tiedosto, ja tulee olemaan .gns3a tiedostotyyppi. 
+Jos on puuttuvia laitetitta/malleja niin voi ladata sovelluksen kautta, mutta mikäli jos on olemassa oleva tiedosto niin perus "import" X-tiedosto, ja tulee olemaan .gns3a tiedostotyyppi. GNS3:lla on oma <ins>marketplaces</ins>, josta voi hyvin käydä lataa sen tiedosto kansion niin perus upottaa GNS3 virtuaaliympäristöön. Marketplaces löytyy mm. labs, softwares, trainng, pdocasts ja jne.
 
 Manually - tarkoittaa jotakin preferenssiä, että muita tukevia sovelluksia ja tiettyjä järjestelmiä.
 <br>
 ![Alt text](images/template-1.PNG) <br>
 
-Perus oletuksena GNS3 virtuaali tietoliikenne verkko ympäristössä on palomuurit, reititin tai yhdistelmä (reititin-palomuuri), erilliset kytkimet ja jne. Guests tarkoittaa erillisiä laiteita mm. iot, selain (firefox), kali linux, macos ja muita ihmeellisiä laiteistoi/vehkeitä.
+Perus oletuksena GNS3 virtuaali tietoliikenne verkko ympäristössä on palomuurit, reititin tai yhdistelmä (reititin-palomuuri), erilliset kytkimet ja jne. Guests tarkoittaa erillisiä laiteita mm. iot, selain (firefox), ubuntu, kali linux, macos ja muita ihmeellisiä laiteistoi/vehkeitä.
 <br>
 ![Alt text](images/template-2.PNG) <br>
 
-Muutama esimerkki kuvakaappaus 
+Muutama esimerkki laiteitta oletuksena, kun lataa ensimmäisen kerran GNS3:sen sovelluksen pyörimään. 
 <br>
 ![Alt text](images/template-3.PNG) <br>
 
@@ -79,13 +81,19 @@ Erillinen preferenssi/integraatiota, jos työasemaan on ladattu virtualbox/vmwar
 
 # gns omia dokumentit ja ohjeita
 
+GNS sovellus tukee työaseman Windows, Mac ja jopa erillinen lataus Linux
 https://docs.gns3.com/docs/ <br> 
-https://gns3.com/marketplace/appliances <br>
+https://www.gns3.com/software/download <br> 
 
 https://docs.gns3.com/docs/emulators/which-emulators-should-i-use <br>
 
 GNS3 windows lataus ohje<br>
-https://docs.gns3.com/docs/getting-started/installation/windows 
+https://docs.gns3.com/docs/getting-started/installation/windows <br> 
 <br>
-GNS3 Marketplace -> Appliances (template)
-https://www.gns3.com/marketplace/appliances
+
+GNS3 Marketplace -> Appliances (template) <br> 
+https://www.gns3.com/marketplace/appliances <br> 
+
+## academy
+<br>
+https://gns3.teachable.com/courses
