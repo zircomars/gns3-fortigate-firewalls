@@ -4,7 +4,9 @@ Perus ensimmäinen GNS3 virtuaalikone ympäristö harjoitus, ennen sitä perus l
 
 Pieni kertausta ja pieni simppeli kuinka GNS3 asennettaan laiteitta ja konffausta.
 
-* [](#perus-simppeli-konffaus)
+* [Perus simppeli konffaus ](#perus-simppeli-konffaus)
+
+HUOM! tämä oli ladattu edellisenä azure pilvestä, eli ekana jouduttiin ladata vm-kone, että miltä se näyttää ja onko miten iso tiedosto
 
 ![Alt text](images/GNS-harjoitus-0.PNG)
 

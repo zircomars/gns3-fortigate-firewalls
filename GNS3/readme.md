@@ -82,9 +82,12 @@ Erillinen preferenssi/integraatiota, jos työasemaan on ladattu virtualbox/vmwar
  <br>
  ![Alt text](images/template-5.PNG)  <br>
 
+
+<hr>
+
 # gns omia dokumentit ja ohjeita
 
-GNS sovellus tukee työaseman Windows, Mac ja jopa erillinen lataus Linux
+GNS sovellus tukee työaseman Windows, Mac ja jopa erillinen lataus Linux <br>
 https://docs.gns3.com/docs/ <br> 
 https://www.gns3.com/software/download <br> 
 
@@ -98,5 +101,5 @@ GNS3 Marketplace -> Appliances (template) <br>
 https://www.gns3.com/marketplace/appliances <br> 
 
 ## academy
-<br>
+
 https://gns3.teachable.com/courses
