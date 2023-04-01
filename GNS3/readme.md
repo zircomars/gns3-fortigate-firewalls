@@ -37,7 +37,8 @@ Kytkimet <br>
 <br>
 
 <br>
-Erilliset pilvet , nat? <br>
+Erilliset pilvet , nat?
+
 ![Alt text](GUI-images/GUI-4.PNG) <br>
 <br>
 
@@ -49,6 +50,32 @@ Security devices - <br>
 Pikainen valikko, että löytyy kaikki laitteet, mitä omistaa tai kuin kokonaisuudesssa projektissa tai koko GNS3 sovelluksessa löytyy. Esim. Cisco packet tracer versio X.Y.Z on oletuksena näitä N kpl laiteitta. <br>
 ![Alt text](GUI-images/GUI-6.PNG)
 <br>
+
+## lisä laiteitta
+
+<b>new Template</b>
+Periaatteessa tuodaan/haetaan/ladataan/ tai importoidaan uutta laiteistoa GNS3 virtuaali tietoliikenne ympäristöön, että siitä suoritettaan selainen harjoitus ennen fyysistä ja realista tekemistä. 
+
+Jos on puuttuvia laitetitta/malleja niin voi ladata sovelluksen kautta, mutta mikäli jos on olemassa oleva tiedosto niin perus "import" X-tiedosto, ja tulee olemaan .gns3a tiedostotyyppi. 
+
+Manually - tarkoittaa jotakin preferenssiä, että muita tukevia sovelluksia ja tiettyjä järjestelmiä.
+<br>
+![Alt text](images/template-1.PNG) <br>
+
+Perus oletuksena GNS3 virtuaali tietoliikenne verkko ympäristössä on palomuurit, reititin tai yhdistelmä (reititin-palomuuri), erilliset kytkimet ja jne. Guests tarkoittaa erillisiä laiteita mm. iot, selain (firefox), kali linux, macos ja muita ihmeellisiä laiteistoi/vehkeitä.
+<br>
+![Alt text](images/template-2.PNG) <br>
+
+Muutama esimerkki kuvakaappaus 
+<br>
+![Alt text](images/template-3.PNG) <br>
+
+<br>
+![Alt text](images/template-4.PNG) <br>
+
+Erillinen preferenssi/integraatiota, jos työasemaan on ladattu virtualbox/vmware tai käyttöjärjestelmä docker ja jne.
+ <br>
+ ![Alt text](images/template-5.PNG)  <br>
 
 # gns omia dokumentit ja ohjeita
 
