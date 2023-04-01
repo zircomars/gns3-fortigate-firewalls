@@ -1,5 +1,7 @@
 # Staatinen ja dynaaminen reititys
 
+- [staatinen](#staatinen)
+- [dynaaminen](#dynaaminen)
 
 ## staatinen
 
