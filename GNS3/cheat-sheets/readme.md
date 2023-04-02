@@ -14,4 +14,5 @@ PC koneelle perus syötettään kysymysmerkki niin antaa/toistaa vaihtoehtoisia 
 Pieni listaus taulukko yleis arkipv tarkistaa PC koneen komennot
 
 | Komennot | kuvaus | 
+| ------- | ------- |
 | $ip adsf | asdfdasf |
