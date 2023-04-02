@@ -87,7 +87,7 @@ Muutama esimerkki laiteitta oletuksena, kun lataa ensimmäisen kerran GNS3:sen s
 
 ![Alt text](images/template-4.PNG) <br>
 
-Erillinen preferenssi/integraatiota, jos työasemaan on ladattu virtualbox/vmware tai käyttöjärjestelmä docker ja jne.
+Erillinen preferenssi/integraatiota, jos työasemaan on ladattu virtualbox/vmware tai käyttöjärjestelmä docker ja jne. Sitten siinä yhdessä valikoimasta on teema muutaminen. Myös kun suorittaa vaikkapa pc, reititin tai kytkimen asetukset muutamista just sitä komento antamista niin se console suoriuttuu kuin realisistinen putty näkymä (kuin identtinen), että perus muokkaa näkymän teeman vähä isommaksi.
  <br>
  ![Alt text](images/template-5.PNG)  <br>
 

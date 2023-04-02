@@ -11,7 +11,7 @@ PC koneelle perus syötettään kysymysmerkki niin antaa/toistaa vaihtoehtoisia 
 
 ![Alt text](images/GNS-PC-cs-2.PNG)
 
-Pieni listaus yleis arkipv tarkistaa PC koneen komennot
+Pieni listaus taulukko yleis arkipv tarkistaa PC koneen komennot
 
--
--
+| Komennot | kuvaus | 
+| $ip adsf | asdfdasf |
