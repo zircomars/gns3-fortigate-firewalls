@@ -12,6 +12,10 @@ Jos vmware tyyppistä niin gns3 tukee vmware esxi/workstation and fusion.
 * [Pikaiset käyttöliittymät](#pikaiset-käyttöliittymät)
 * [lisä laiteitta](#lisä-laiteitta)
     * [Laiteen lisäys malleja](#laiteen-lisäys-malleja)
+
+- [muita gns ongelmia](#muita-gns-ongelmia)
+    * [virtualikone integrointi](#virtualikone-integrointi)
+
 - [gns omia dokumentit ja ohjeita](#gns-omia-dokumentit-ja-ohjeita)
     * [academy](#academy)
 
@@ -100,6 +104,43 @@ Oletuksena voisi käyttää GNS3 tarjoavia, että lataa (install) niitä malleja
 Pien kertaus Fast Ethernet (FE) on 100 Mbps & Gigabit Ethernet (GE) on 1000 Mbps ja 10 Gigabit Ethernet 10 000 Mbps.
 
 Linkki GNS3 kuinka tarkistaa Cisco emulaatorin, että mitä reititin ja kytkin tukevat tai <ins> ei tue </ins> GNS3 simulaatio ympäristössä. https://docs.gns3.com/docs/emulators/cisco-ios-images-for-dynamips/
+
+<hr>
+
+# muita gns ongelmia
+
+Ongelmia voi mahdollista olla, että yrittää saada upotettua lisä laiteistoja GNS3 simulaatio sovellukselle ja sieltä jatkaa eteenpäin, mutta usein jatkuvasti <b>new templates:sta</b> --> siitä kun yritettään "install an appliance from the GNS3 server" niin tuotaa herjaamista. 
+
+![Alt text](images/gns-problem-1.PNG)
+
+Vaihtoehtona se tarvii jopa virtuaalikoneen serverin, jotta saisi pelittämään yhteytä vähä kuin integrointia.
+
+## virtualikone integrointi
+
+GNS3 virtuaalikoneesta vaihtoehtoisia tyyppejä on mm. virtualbox tai vmware ympäristöä, että sisäkkäisen virtualisointituki Intel-suorittimille lisätään, on osoitettava Virtualbox-foorumeille, ei GNS3-käyttäjien foorumeille.
+
+Ennen kuin suoritta mitään niin pitää ladata virtualikoneen oma tarvittava paketti tiedosto, että importaa sen joko <b>vmware:n</b> tai <b>virtualbox</b> koneelle. Koska luodakseen kevyen ja vankan tavan luoda GNS3-topologioita, jotka välttävät useita yleisiä ongelmia, joita esiintyy käytettäessä GNS3:n paikallista asennusta. https://www.gns3.com/software/download-vm 
+
+Tarkista GNS3 käyttöliittymistä kuin Edit -> Preferences ja vasemmasta valikkosta (GNS3 VM) asukset & että sallittaan virtualisointi moottori eli virtualikone ja pidä oletuksena noi tietyt asetukset.
+
+![Alt text](images/gns-problem-2.PNG)
+
+<b> Virtuaalikone vaihde </b> - jos on ladannut virtuaalikoneen työpöytään. Virtualbox sovellus ei ole onneks mikään iso, mutta tarvittavat materiaalit on tosi isoja jopa yli 1GB kapasiteettiä.. 
+
+
+![Alt text](images/gns-problem-4.PNG)
+
+Virtualkone on päällä nii haettaan (import) ja ladattun GNS3 VM puuttuva osuus.
+
+![Alt text](images/gns-problem-5.PNG)
+![Alt text](images/gns-problem-3.PNG)
+
+
+
+
+
+
+
 
 <hr>
 
