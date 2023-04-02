@@ -135,12 +135,14 @@ Virtualkone on päällä nii haettaan (import) ja ladattun GNS3 VM puuttuva osuu
 ![Alt text](images/gns-problem-5.PNG)
 ![Alt text](images/gns-problem-3.PNG)
 
+Tämän jälkeen menee hetki se importtaa sen tiedoston niin jonka jälkeen saa tietyn kuin ip-osoite. Myös kantsii pitää tätä virtuaalikoneen käynnissä, koska mikäli jos tai kun hakee lisää laiteistoja, ja harjoittelee lisä asetuksia mm. leikkii palomuuria, reititystä ja testaa jotakin kuin toimisi tosi elämässä.
 
+![Alt text](images/gns-problem-6.PNG)
 
+Samalla tämä importattu IP-osoite ikäänkuin suorittaisi virtuaalikoneen (server), että voi käydä selailemassa tutkailemassa ja tarkistamassa jänniä asetuksia. Ikäänkuin näyttäisi serverin lokaali sisäiset muistit, perus asetukset (teema) ja jopa löytyy päivitystäkin erikseen.
 
-
-
-
+![Alt text](images/gns-problem-7.PNG)
+![Alt text](images/gns-problem-8.PNG)
 
 <hr>
 
