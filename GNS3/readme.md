@@ -177,3 +177,5 @@ https://docs.gns3.com/docs/using-gns3/beginners/switching-and-gns3/ <br>
 
 https://www.raghededris.com/2022/06/06/free-download-cisco-ios-images-for-gns3-and-eve-ng/ <br>
 https://networkrare.com/download-cisco-iou-iol-images-gns3-gns3-iou-vm-oracle-virtual-box-l2-l3-cisco-switch-images/ <br>
+
+https://www.youtube.com/watch?v=nB0iZd9z3CI 
