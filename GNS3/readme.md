@@ -19,7 +19,7 @@ Jos vmware tyyppistä niin gns3 tukee vmware esxi/workstation and fusion.
 - [gns omia dokumentit ja ohjeita](#gns-omia-dokumentit-ja-ohjeita)
     * [academy](#academy)
         * [muita ohjeita jos puuttuu](#muita-ohjeita-jos-puuttuu)
-    * [templates laiteitta](#templates-laiteitta)
+    * [templates ja application laiteitta ](#templates-ja-application-laiteitta )
 
 ![Alt text](images/GNS3-network-1.jpg)
 
@@ -173,9 +173,11 @@ https://www.youtube.com/watch?v=8VQ8eTmMtjQ <br>
 http://commonerrors.blogspot.com/2019/06/gns3-vm-is-not-available.html <br>
 https://docs.gns3.com/docs/using-gns3/beginners/switching-and-gns3/ <br>
 
-## templates laiteitta 
+## templates ja application laiteitta 
 
 https://www.raghededris.com/2022/06/06/free-download-cisco-ios-images-for-gns3-and-eve-ng/ <br>
 https://networkrare.com/download-cisco-iou-iol-images-gns3-gns3-iou-vm-oracle-virtual-box-l2-l3-cisco-switch-images/ <br>
 
-https://www.youtube.com/watch?v=nB0iZd9z3CI 
+https://www.youtube.com/watch?v=nB0iZd9z3CI  <br>
+
+https://github.com/GNS3/gns3-registry/tree/master/appliances <br>
