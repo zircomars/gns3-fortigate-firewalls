@@ -15,6 +15,7 @@ Jos vmware tyyppistä niin gns3 tukee vmware esxi/workstation and fusion.
 
 - [muita gns ongelmia](#muita-gns-ongelmia)
     * [virtualikone integrointi](#virtualikone-integrointi)
+    * []()
 
 - [gns omia dokumentit ja ohjeita](#gns-omia-dokumentit-ja-ohjeita)
     * [academy](#academy)
@@ -145,6 +146,10 @@ Samalla tämä importattu IP-osoite ikäänkuin suorittaisi virtuaalikoneen (ser
 
 ![Alt text](images/gns-problem-7.PNG)
 ![Alt text](images/gns-problem-8.PNG)
+
+## oma työasema cpu
+
+GNS3 virtuaalikonen projektien tekemisessä vaikkappa avaa useita console:a tai aktivoida isoa projektia mm. paljon kytkintä, reititintä, palomuuria ja koneita, että vaikuttaa siihen työaseman prosessiin (cpu) ja jopa tehtävänhallintaan (task manager), että miten se jaksaa kantaa ja tukea gns3 simulaatiota.
 
 <hr>
 
