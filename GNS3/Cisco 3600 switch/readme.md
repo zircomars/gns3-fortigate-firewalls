@@ -243,3 +243,48 @@ ESW1#show ?
   vrrp                      VRRP information
   vsp                       Voice Streaming Processing information
   vtemplate                 Virtual Template interface information
+
+<hr>
+
+ESW1#show int ?
+  Async              Async interface
+  BVI                Bridge-Group Virtual Interface
+  CDMA-Ix            CDMA Ix interface
+  CTunnel            CTunnel interface
+  Dialer             Dialer interface
+  Ethernet           IEEE 802.3
+  FastEthernet       FastEthernet IEEE 802.3
+  Loopback           Loopback interface
+  MFR                Multilink Frame Relay bundle interface
+  Multilink          Multilink-group interface
+  Null               Null interface
+  Port-channel       Ethernet Channel of interfaces
+  Tunnel             Tunnel interface
+  Vif                PGM Multicast Host interface
+  Virtual-PPP        Virtual PPP interface
+  Virtual-Template   Virtual Template interface
+  Virtual-TokenRing  Virtual TokenRing
+  Vlan               Catalyst Vlans
+  accounting         Show interface accounting
+  counters           Show interface counters
+  crb                Show interface routing/bridging info
+  dampening          Show interface dampening info
+  description        Show interface description
+  etherchannel       Show interface etherchannel information
+  irb                Show interface routing/bridging info
+  mac-accounting     Show interface MAC accounting info
+  mpls-exp           Show interface MPLS experimental accounting info
+  precedence         Show interface precedence accounting info
+  pruning            Show interface trunk VTP pruning information
+  rate-limit         Show interface rate-limit info
+  stats              Show interface packets & octets, in & out, by switching
+                     path
+  status             Show interface line status
+  summary            Show interface summary
+  switching          Show interface switching
+  switchport         Show interface switchport information
+  trunk              Show interface trunk information
+  |                  Output modifiers
+  <cr>
+
+<hr>
