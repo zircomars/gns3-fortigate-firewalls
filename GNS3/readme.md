@@ -21,7 +21,7 @@ Jos vmware tyyppistä niin gns3 tukee vmware esxi/workstation and fusion.
 - [gns omia dokumentit ja ohjeita](#gns-omia-dokumentit-ja-ohjeita)
     * [academy](#academy)
         * [muita ohjeita jos puuttuu](#muita-ohjeita-jos-puuttuu)
-            * [GNS3, remote server and virtualbox (more cpu and ram)](#gns3-remote-server-and-virtualbox-more-cpu-and-ram)
+            * [GNS3, remote server and virtualbox (more cpu and ram) and other](#gns3-remote-server-and-virtualbox-more-cpu-and-ram-and-other)
     * [templates ja application laiteitta ](#templates-ja-application-laiteitta )
 
 ![Alt text](images/GNS3-network-1.jpg)
@@ -180,22 +180,27 @@ Virtualbox verkkoyhteys joko nat, silattu yhteys tai yms: https://www.virtualbox
 
 ## Cisco IOU license
 
-Tietyt jotakin template(laiteistoissa) ei yhtäkkiä anna sallia käynnistää console (cmd:tä), että antaa kytkimen switch suorittaa harjoitusta/projektia vaikkapa lisäisi vlan id:tä, portti moodia tai muuta kytkimen asetusta.
+Tietyt jotakin template (laiteistot) ei yhtäkkiä anna sallia käynnistää console (cmd:tä), ettei anna kytkimen  suorittaa harjoitusta/projektia vaikkapa lisäisi vlan id:tä, portti moodia tai muuta kytkimen asetusta.
 
 ![Alt text](images/gns-problem-13.PNG)
 
-Suorittamiseen kantsii olla WinSCP, joka suorittaa avoimen lähdekoodiin SSH-protokollan eli työaseman ja SSH IP-osoite vaikappa just tämä virtuaalikone yhteys (virtualbox / vmware) serveri. Tätä on pako suorittaa WinSCP asetuksista, koska ilman sitä ei menisi ja ei löydy fyysisesti työaseman C-tiedosto kansiosta tai C-aseman Program Files.
+Suorittamiseen kantsii olla WinSCP työkalu, jolla sen kautta suorittaa avoimen lähdekoodiin SSH-protokollan eli työaseman ja SSH IP-osoite yhteyden vaikappa just tämä virtuaalikone yhteys (virtualbox / vmware) serveri. Tätä on pako suorittaa WinSCP asetuksen työkalun kautta, koska ilman sitä ei menisi ja ei löydy fyysisesti työaseman C-aseman kansiosta tai C-aseman Program Files.
 
-Tiedosto polkuun (opt/gns3/images/IOU) pitää lisätä tommoinen <b><ins> iourc.txt</ins></b>
+Ennen siirtoa pitää ladata yksi zip paketti tiedosto (muista vielä purkkaa zip tiedosto), josta tarvittaan tämmöinen <b>CiscoIOUKeygen3f.py</b>.
+Tiedosto polkuun mihin ollaan siirtämässä (opt/gns3/images/IOU) pitää lisätä tommoinen <b><ins>CiscoIOUKeygen3f.py</ins></b>.
 
+Vasemalla omatyöasema ja oikealla on just se virtuaalikoneen SSH protokolla yhteys. Ennen Winscp liittämistä pitää yhdistää just se virtuaalikoneen gns3 pohjan/serverin IP-osoite ja millä käyttäjätunnus;salasanalla mennään oletuksena käytettään gns3:sta (user & password; gns3)
 ![Alt text](images/gns-problem-13-1.PNG)
 
+Siirrettyn CiscoIOUKeygen3f.py jälkeen - avaa virtuaalikoneesta (virtualbox / vmware) Shell scripttaus (kuin Linux console) näkymän eli <b>Shell</b>. 
 
+Jonka jälkeen mennään taas polkuun (/opt/gns3/images/IOU), josta näkee sen siirrettyn python tiedoston ja sitten aktivoidaan se tiedosto eli komennolla <b> $sudo python3 CiscoIOUKeygen3f.py </b>. Mikä se ikäänkuin purkkaa sen python tiedoston, ja winscp:stä pitäisi ponnahtaa se <b> iourc.txt </b> tiedosto. Sitten vaan virtuaalikoneen shell scriptauksesta voidaan poistua eli 2x $exit . 
 
+HUOM. ennen kuin lopettaa Winscp protokollan siirron niin kantsii siirtää sen <b> iourc.txt </b> itselle työasemaan.
 
+![Alt text](images/gns-problem-14.PNG)
 
-
-
+![Alt text](images/gns-problem-15-2.PNG)
 
 <hr>
 
@@ -224,9 +229,12 @@ https://www.youtube.com/watch?v=8VQ8eTmMtjQ <br>
 http://commonerrors.blogspot.com/2019/06/gns3-vm-is-not-available.html <br>
 https://docs.gns3.com/docs/using-gns3/beginners/switching-and-gns3/ <br>
 
-#### GNS3, remote server and virtualbox (more cpu and ram) 
+#### GNS3, remote server and virtualbox (more cpu and ram) and other
 
 https://www.youtube.com/watch?v=kLLIbOHRKiU <br>
+
+IOUS licenses <br>
+https://www.youtube.com/watch?v=2QQmbt-l1O0
 
 ## templates ja application laiteitta 
 
