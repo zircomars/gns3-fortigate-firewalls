@@ -159,9 +159,16 @@ localhost, 0.0.0.0 , 127.0.0.1, työaseman verkkokortti eli 192.168.X.Y alkuinen
 Remote server on just esim. vaikkapa azure virtuaalikkoneiden ympäristön tai jopa virtuaalikoneen (vmware / virtualbox) luoman pohjan importattu tai uusi koneen sen itsensä saanneen IP-osoite 192.168.Y.X ja portti 80 (Http) protokolla.
 
 ![Alt text](images/gns-problem-9.PNG)
+
+<br>
+
+Lisäämisessä kantsii lisätä varmuuden vuodeksi virtuaalikoneen IP-osoite, koska antaa GNS3 projektissa/harjoituksessa niin kuin suorittaa sitä prosessoria/cpu:ta, että jaksaa kantaa sitä suorituskykyä ja järjestelmää kuin tukena. Salli authentikointi eli user ; password . Oletuksena käyttis on gns3 ; gns3 
+
 ![Alt text](images/gns-problem-10.PNG)
 
-Jos on virtualbox kantsii tarkistaa sen importattu/projekti/vm resurssi.¨
+![Alt text](images/gns-problem-12.PNG)
+
+Jos on virtualbox kantsii tarkistaa sen importattu/projekti/vm resurssi.
 
 (Attached to) - valinnasta on moni tyyppisiä, että riippuu mihin käyttötarkoitukseen on käytössä mm. NAT, Bridged networking (silattu verkkoyhteys), Internal-, Host-only, cloud, generic networking ja viimeisenä (not attached).
 
