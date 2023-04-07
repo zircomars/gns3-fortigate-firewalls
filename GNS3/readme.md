@@ -202,6 +202,10 @@ HUOM. ennen kuin lopettaa Winscp protokollan siirron niin kantsii siirtää sen 
 
 ![Alt text](images/gns-problem-15-2.PNG)
 
+Tästä ohje videosta löytyy usein youtuubestä tai muualta linkkistä: <br>
+https://www.youtube.com/watch?v=2QQmbt-l1O0 <br>
+https://timigate.com/2021/10/cisco-iou-l2-keygen-license-for-gns3.html  <br>
+
 <hr>
 
 # gns omia dokumentit ja ohjeita
