@@ -16,6 +16,7 @@ Jos vmware tyyppistä niin gns3 tukee vmware esxi/workstation and fusion.
 - [muita gns ongelmia](#muita-gns-ongelmia)
     * [virtualikone integrointi](#virtualikone-integrointi)
     * [oma työasema cpu](#oma-työasema-cpu)
+    * [Cisco IOU license](#cisco-iou-license)
 
 - [gns omia dokumentit ja ohjeita](#gns-omia-dokumentit-ja-ohjeita)
     * [academy](#academy)
@@ -176,6 +177,25 @@ Jos on virtualbox kantsii tarkistaa sen importattu/projekti/vm resurssi.
 ![Alt text](images/gns-problem-11.PNG)
 
 Virtualbox verkkoyhteys joko nat, silattu yhteys tai yms: https://www.virtualbox.org/manual/ch06.html
+
+## Cisco IOU license
+
+Tietyt jotakin template(laiteistoissa) ei yhtäkkiä anna sallia käynnistää console (cmd:tä), että antaa kytkimen switch suorittaa harjoitusta/projektia vaikkapa lisäisi vlan id:tä, portti moodia tai muuta kytkimen asetusta.
+
+![Alt text](images/gns-problem-13.PNG)
+
+Suorittamiseen kantsii olla WinSCP, joka suorittaa avoimen lähdekoodiin SSH-protokollan eli työaseman ja SSH IP-osoite vaikappa just tämä virtuaalikone yhteys (virtualbox / vmware) serveri. Tätä on pako suorittaa WinSCP asetuksista, koska ilman sitä ei menisi ja ei löydy fyysisesti työaseman C-tiedosto kansiosta tai C-aseman Program Files.
+
+Tiedosto polkuun (opt/gns3/images/IOU) pitää lisätä tommoinen <b><ins> iourc.txt</ins></b>
+
+![Alt text](images/gns-problem-13-1.PNG)
+
+
+
+
+
+
+
 
 <hr>
 
