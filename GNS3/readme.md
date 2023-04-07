@@ -151,6 +151,23 @@ Samalla tämä importattu IP-osoite ikäänkuin suorittaisi virtuaalikoneen (ser
 
 GNS3 virtuaalikonen projektien tekemisessä vaikkappa avaa useita console:a tai aktivoida isoa projektia mm. paljon kytkintä, reititintä, palomuuria ja koneita, että vaikuttaa siihen työaseman prosessiin (cpu) ja jopa tehtävänhallintaan (task manager), että miten se jaksaa kantaa ja tukea gns3 simulaatiota.
 
+Kantsii tarkistaa tietyt asetukset kuntoon; Edit/Preferences (GNS3 VM)
+
+Main server (fyysisen työasema) Host binding; 127.0.0.1 on localhost ip-osoite, sekä takana vaihtoehtoisia on mm. polkuna;
+localhost, 0.0.0.0 , 127.0.0.1, työaseman verkkokortti eli 192.168.X.Y alkuinen tai vaihtoehtona virtuaalikoneen pohjaisen IP-osoite.
+
+Remote server on just esim. vaikkapa azure virtuaalikkoneiden ympäristön tai jopa virtuaalikoneen (vmware / virtualbox) luoman pohjan importattu tai uusi koneen sen itsensä saanneen IP-osoite 192.168.Y.X ja portti 80 (Http) protokolla.
+
+![Alt text](images/gns-problem-9.PNG)
+![Alt text](images/gns-problem-10.PNG)
+
+Jos on virtualbox kantsii tarkistaa sen importattu/projekti/vm resurssi.¨
+
+(Attached to) - valinnasta on moni tyyppisiä, että riippuu mihin käyttötarkoitukseen on käytössä mm. NAT, Bridged networking (silattu verkkoyhteys), Internal-, Host-only, cloud, generic networking ja viimeisenä (not attached).
+
+![Alt text](images/gns-problem-11.PNG)
+
+Virtualbox verkkoyhteys joko nat, silattu yhteys tai yms: https://www.virtualbox.org/manual/ch06.html
 <hr>
 
 # gns omia dokumentit ja ohjeita
