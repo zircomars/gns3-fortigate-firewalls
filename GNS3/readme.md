@@ -15,7 +15,7 @@ Jos vmware tyyppistä niin gns3 tukee vmware esxi/workstation and fusion.
 
 - [muita gns ongelmia](#muita-gns-ongelmia)
     * [virtualikone integrointi](#virtualikone-integrointi)
-    * []()
+    * [oma työasema cpu](#oma-työasema-cpu)
 
 - [gns omia dokumentit ja ohjeita](#gns-omia-dokumentit-ja-ohjeita)
     * [academy](#academy)
@@ -176,6 +176,7 @@ Jos on virtualbox kantsii tarkistaa sen importattu/projekti/vm resurssi.
 ![Alt text](images/gns-problem-11.PNG)
 
 Virtualbox verkkoyhteys joko nat, silattu yhteys tai yms: https://www.virtualbox.org/manual/ch06.html
+
 <hr>
 
 # gns omia dokumentit ja ohjeita
