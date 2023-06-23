@@ -7,7 +7,7 @@ eli tänne tulee kaikki erilaiset steppit, miten saa <b>oikeasti</b> upotettua g
 
 ## type 1
 
-
+https://mega.nz/folder/nJR3BTjJ#N5wZsncqDkdKyFQLELU1wQ
 
 
 ## type 2
