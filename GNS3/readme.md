@@ -12,6 +12,7 @@ Jos vmware tyyppistä niin gns3 tukee vmware esxi/workstation and fusion.
 * [Pikaiset käyttöliittymät](#pikaiset-käyttöliittymät)
 * [lisä laiteitta](#lisä-laiteitta)
     * [Laiteen lisäys malleja](#laiteen-lisäys-malleja)
+    * [materiaalien tuominen](#materiaalien-tuominen)
 
 - [muita gns ongelmia](#muita-gns-ongelmia)
     * [virtualikone integrointi](#virtualikone-integrointi)
@@ -22,7 +23,7 @@ Jos vmware tyyppistä niin gns3 tukee vmware esxi/workstation and fusion.
     * [academy](#academy)
         * [muita ohjeita jos puuttuu](#muita-ohjeita-jos-puuttuu)
             * [GNS3, remote server and virtualbox (more cpu and ram) and other](#gns3-remote-server-and-virtualbox-more-cpu-and-ram-and-other)
-    * [templates ja application laiteitta ](#templates-ja-application-laiteitta )
+    * [templates ja application laiteitta ](#templates-ja-application-laiteitta)
 
 ![Alt text](images/GNS3-network-1.jpg)
 
@@ -37,33 +38,33 @@ Pikainen lyhyt GUI (graphical user interface) graafinen käyttöliittymät
 Perus vasemman käyttöliittymmä, josta löytyy useita laiteita mm. reititin/palomuuri, kytkimet, pilvi, nat:taus, tietokone ja jne. Sekä kuinka yhdistää/liittää tietokonen kytkimelle tai muu laiteelle. Jokaisessa näiden 5-nappista (ylhältä laskien) niin löytyy <b>New Template</b>, eli malleja josta tuoo esim. tietoverkkojen brändi tuoteita GNS3 simulaatioon sovellukseen suorittamaan harjoituksen kuin realistisessa elämässä, mutta ongelmana ehkä voi olla jotakin puuttuvia osia että ei mee ihan 100% sama kuin tosi elämässä..
 
 Viimeisenä tommoinen käärme / verkkoliitin näköinen on, että liitettään laite x --> johonkin laite y:hyn. <br>
-![Alt text](GUI-images/GUI-1.PNG)
+![Alt text](GNS-GUI-images/GUI-1.PNG)
 
 <br>
 Routers eli reitittimiä, palomuureja tai yhdistelmä reititin-palomuuri <br>
 
-![Alt text](GUI-images/GUI-2.PNG)
+![Alt text](GNS-GUI-images/GUI-2.PNG)
 <br>
 
 Kytkimet <br>
-![Alt text](GUI-images/GUI-3.PNG)
+![Alt text](GNS-GUI-images/GUI-3.PNG)
 <br>
 
 <br>
 Erilliset pilvet , nat? 
 VPCS - tarkoittaa tietokonetta ei väliä onko läppäri tai fyysinen tietokone (sellainen iso)
 
-![Alt text](GUI-images/GUI-4.PNG) <br>
+![Alt text](GNS-GUI-images/GUI-4.PNG) <br>
 <br>
 
 Security devices - <br>
-![Alt text](GUI-images/GUI-5.PNG)
+![Alt text](GNS-GUI-images/GUI-5.PNG)
 <br>
 
 <br>
 Pikainen valikko, että löytyy kaikki laitteet, mitä omistaa tai kuin kokonaisuudesssa projektissa tai koko GNS3 sovelluksessa löytyy. Esim. Cisco packet tracer versio X.Y.Z on oletuksena näitä N kpl laiteitta. <br>
 
-![Alt text](GUI-images/GUI-6.PNG)
+![Alt text](GNS-GUI-images/GUI-6.PNG)
 <br>
 
 - Viimeisenä jos on jotakin muistiinpanoja tai merkintöjä toi ensimmäinen kynä merkkinen näköinen on se.
@@ -72,7 +73,7 @@ Pikainen valikko, että löytyy kaikki laitteet, mitä omistaa tai kuin kokonais
 - Lukkon näköinen, ikään kuin lukittaisi X laitetta vaikkapa reititin tai kone ettei siihen tehdä muutosta.
 - Ihan oikealla perus zoom in & out, ja kamera logoinen (screenshot)
 
-![Alt text](GUI-images/GUI-7.PNG) <br>
+![Alt text](GNS-GUI-images/GUI-7.PNG) <br>
 
 ## lisä laiteitta
 
@@ -109,6 +110,12 @@ Oletuksena voisi käyttää GNS3 tarjoavia, että lataa (install) niitä malleja
 Pien kertaus Fast Ethernet (FE) on 100 Mbps & Gigabit Ethernet (GE) on 1000 Mbps ja 10 Gigabit Ethernet 10 000 Mbps.
 
 Linkki GNS3 kuinka tarkistaa Cisco emulaatorin, että mitä reititin ja kytkin tukevat tai <ins> ei tue </ins> GNS3 simulaatio ympäristössä. https://docs.gns3.com/docs/emulators/cisco-ios-images-for-dynamips/
+
+### materiaalien tuominen
+
+GNS3 materiaalien tuomisessa saattaa joskus tuottaa epäonnistumista eli ettei ne toimi, sekä puuttuu jotakin konffauksia, määrityksiä ja jne. ettei se simulaatio ymmärrä sitä tuonneen mallin merkkiä mm. jupiter, cisco, huawei ja jne erilaisia brändi merkkeistä. 
+
+Kun usein katsoo Youtube videoista, että miten <ins>he</ins> ovat tuonneet ja onnistuneet saamaan sitä materiaalia sinne omaan simulaatio pohjaan niin se toimii heillä, mutta se ei tarkoita 100% toimisi itsellä. Koska simulaatiot näiden lähdekoodit päivittyvät vuosittain, että tukeeko sitä esim. n. alle/yli vuoden vanhan video ohjeen mukaan. Tai vaihtoehtona katsoo muista bloggista (github) ja jne ohjeita. Ongelmista tietenkin aina esiintyy ja pitää taistella/hakkaa päättä seinään, että saisi jotenkin suostumaan ja lisämään siihen simulaatio pohjaan sitä tiettyä/puuttuvaa materiaalia sisään.. 
 
 <hr>
 
