@@ -158,7 +158,7 @@ Samalla tämä importattu IP-osoite ikäänkuin suorittaisi virtuaalikoneen (ser
 
 ## oma työasema cpu
 
-GNS3 virtuaalikonen projektien tekemisessä vaikkappa avaa useita console:a tai aktivoida isoa projektia mm. paljon kytkintä, reititintä, palomuuria ja koneita, että vaikuttaa siihen työaseman prosessiin (cpu) ja jopa tehtävänhallintaan (task manager), että miten se jaksaa kantaa ja tukea gns3 simulaatiota.
+GNS3 virtuaalikonen projektien tekemisessä vaikkappa avaa useita console:a tai aktivoida isoa projektia mm. paljon kytkintä, reititintä, palomuuria ja koneita, että vaikuttaa siihen työaseman prosessiin (cpu) ja jopa tehtävänhallintaan (task manager), että miten se jaksaa kantaa ja tukea gns3 simulaatiota.. ehkä mahdollista perus tai sitä tehokampaa konetta hankia mm. inte core 5 tai 7, ei i3, koska ei välttämättä jaksa kantaa ja sykkiä, mikäli jos on tavallinen tietokoneen käyttäjä. Riippuu konen käyttäjästä mihin käyttötarkoitukseen hän käyttämässä.
 
 Kantsii tarkistaa tietyt asetukset kuntoon; Edit/Preferences (GNS3 VM)
 
