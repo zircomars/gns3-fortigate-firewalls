@@ -7,7 +7,8 @@ eli tänne tulee kaikki erilaiset steppit, miten saa <b>oikeasti</b> upotettua g
 
 ## type 1
 
+http://srijit.com/working-cisco-ios-gns3/
 https://mega.nz/folder/nJR3BTjJ#N5wZsncqDkdKyFQLELU1wQ
-
+https://www.youtube.com/watch?v=1hoZEscB038
 
 ## type 2
